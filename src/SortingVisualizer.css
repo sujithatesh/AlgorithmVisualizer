@@ -1,0 +1,10 @@
+.bar-container{
+    margin: 5px;
+    display: flex;
+    padding-bottom: 0px;
+    justify-content: center;
+}
+.bar-graph{
+    margin: 1px;
+    border-left: 6px solid pink;
+}
