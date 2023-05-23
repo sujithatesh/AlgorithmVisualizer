@@ -1,0 +1,11 @@
+.grid-row{
+    display:flex;
+}
+.grid-container {
+    margin-left: 10px;
+}
+.super-grid{
+    display: flex;
+    flex-direction: column;
+}
+

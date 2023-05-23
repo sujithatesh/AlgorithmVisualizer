@@ -17,7 +17,7 @@ export default function SortingVisualizer() {
         resetArray();
     }, []);
 
-    const animateBubbleSort= () => {
+    const animateBubbleSort = () => {
         let swapIndices = [];
         let ret = bubbleSort(array);
         swapIndices = ret[0];
@@ -55,7 +55,7 @@ export default function SortingVisualizer() {
                     barStyleA.borderColor = "";
                     barStyleB.borderColor = "";
                     animateNextStep(i + 1);
-                }, 1);
+                }, 10);
             } else {
                 if (typeof callback === "function") {
                     callback();
